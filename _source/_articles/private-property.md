@@ -18,7 +18,7 @@ Access tags should be verifable, typically in the form of real-world signage or 
 
 OpenStreetMap is a crowdsourced database maintained by volunteer "mappers." Mappers use a variety of sources to compile trail data, including publicly-available aerial imagery, ground-level photos, and government datasets.
 
-It's not always clear from source data if a trail is public or private access. Some mappers conduct field surveys to gain additional info, though such surveys must comply with local property law.
+It's not always clear from source data if a trail is public or private access. Some mappers conduct field surveys to gain additional info (if the area is public access).
 
 ## How do apps use private trail data from OpenStreetMap?
 

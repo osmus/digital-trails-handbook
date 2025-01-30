@@ -3,7 +3,7 @@
     {%- assign footer_image_filename = page.footer_image | default: 'desert-sentinels' -%}
     {%- include screened_image.html filename=footer_image_filename width="100%" -%}
     <p class="copyright">
-      <span>The Digital Trails Handbook</span>
+      <span><a href="{{site.url}}{{site.baseurl}}">The Digital Trails Handbook</a></span>
       <br/>
       <span>© {{ site.time | date: '%Y' }} <a href="https://openstreetmap.us" target="_blank">OpenStreetMap US</a>. Licensed <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.</span>
     </p>
