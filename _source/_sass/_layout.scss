@@ -6,7 +6,7 @@
 body {
   background-color: v.$background-color;
   color: v.$text-color;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.4em;
   font-family: v.$body-font;
 }
@@ -133,6 +133,7 @@ h3 {
   text-align: center;
   font-family: v.$title-font;
   margin-bottom: v.$sp * 1.5;
+  font-size: 1.11em;
 }
 
 /* misc */
@@ -178,9 +179,6 @@ ul.articles-list ul {
 /* narrow window */
 
 @media only screen and (max-width: 616px){
-  body {
-    font-size: 18px;
-  }
   .header {
     padding-bottom: 0;
   }
