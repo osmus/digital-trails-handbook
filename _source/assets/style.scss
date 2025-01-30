@@ -1,0 +1,38 @@
+---
+---
+@charset "UTF-8";
+
+@use "base";
+@use "layout";
+
+$baseurl: "{{site.url}}{{site.baseurl}}";
+$fonturl: $baseurl + "/assets/fonts/";
+
+@font-face{
+  src: url($fonturl + 'hvd_edding.otf');
+  font-family: "HVD Edding 780";
+}
+@font-face{
+  src: url($fonturl + 'Kentucky Fireplace Regular.ttf');
+  font-family: "Kentucky Fireplace";
+}
+@font-face{
+  src: url($fonturl + 'cmunorm.ttf');
+  font-family: "CMU Concrete";
+}
+@font-face{
+  src: url($fonturl + 'cmunobx.ttf');
+  font-family: "CMU Concrete";
+  font-weight: bold;
+}
+@font-face{
+  src: url($fonturl + 'cmunoti.ttf');
+  font-family: "CMU Concrete";
+  font-style: italic;
+}
+@font-face{
+  src: url($fonturl + 'cmunobi.ttf');
+  font-family: "CMU Concrete";
+  font-weight: bold;
+  font-style: italic;
+}

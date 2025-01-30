@@ -1,0 +1,28 @@
+title: Digital Trails Handbook
+homepage_about: |
+  Welcome to the **Digital Trails Handbook**, a community-driven guide to the data we rely upon to navigate the great outdoors.
+  It's written by trail mapping experts (not by AI), with insight from trail users, land managers, and app developers.
+footer_about: |
+  This is a community-driven guide to the data we rely upon to navigate the great outdoors.
+  It's written by trail mapping experts (not by AI), with insight from trail users, land managers, and app developers.
+all_about: |
+  This handbook comes out of the <a href="https://openstreetmap.us/trails/" target="_blank">OpenStreetMap US Trails Stewardship Initiative</a>,
+  a collaborative effort to improve recreation data in the United States and beyond.
+permalink: /:path/
+url: "http://localhost:4000"
+liquid:
+  error_mode: strict
+  strict_variables: false
+  strict_filters: true
+source: _source
+date_format: "%b %e, %Y"
+collections:
+  articles:
+    output: true
+defaults:
+  - scope:
+      path: _articles
+      type: articles
+    values:
+      permalink: /:path/
+      layout: article

@@ -1,0 +1,10 @@
+---
+layout: page
+---
+{{content}}
+<div class="aboutbox prose">
+  <h2>About the Digital Trails Handbook</h2>
+  {{site.footer_about | markdownify}}
+  {{site.all_about}}
+</div>
+<p><i>This page last updated {{page.updated | default: page.date | date: site.date_format}}.<br/>Something amiss? You can </i><a href="https://github.com/osmus/digital-trails-handbook/blob/main/_source/{{page.path}}"><i>propose a change</i> ➛</a></p>

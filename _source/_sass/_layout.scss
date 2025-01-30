@@ -1,0 +1,219 @@
+@use 'sass:color';
+@use 'variables' as v;
+
+/* general layout */
+
+body {
+  background-color: v.$background-color;
+  color: v.$text-color;
+  font-size: 20px;
+  line-height: 1.4em;
+  font-family: v.$body-font;
+}
+
+#page-left {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width:  v.$sp;
+  z-index: 1000;
+  background: v.$ui-color;
+  //background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0));
+  left: 0;
+}
+
+a {
+  color: v.$ui-color;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+strong, b {
+  font-weight: bold;
+}
+i {
+  font-style: italic;
+}
+
+hr {
+  border-bottom: 1px solid v.$text-color;
+  border-top: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0  v.$sp 0  calc(v.$sp * 2);
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+}
+
+/* header */
+
+.header {
+  color: v.$ui-color;
+  overflow: hidden;
+  padding-bottom:  calc(v.$sp * 2);
+  max-width: none;
+}
+
+.site-title-area {
+  margin: 50px 0  calc(v.$sp * 2) 0;
+  position: relative;
+  width: max-content;
+  display: inline-block;
+  font-size: 20px;
+}
+.site-title {
+  font-family: v.$site-title-font;
+  font-size: 2.5em;
+  line-height: 1.25;
+  padding: 0.5em 0;
+}
+.pre-site-title, .post-site-title {
+  font-size: 1.7em;
+  font-family: v.$title-font;
+  position: absolute;
+}
+.pre-site-title {
+  left: 0.7em;
+}
+.post-site-title {
+  right: 0.7em;
+  bottom: 0;
+}
+.trail-path-1, .trail-path-2 {
+  position: absolute;
+}
+.trail-path-1 {
+  right: 59.2%;
+  top: 4em;
+}
+.trail-path-2 {
+  left: 53.5%;
+  top: -5.8em;
+}
+
+/* prose */
+
+.prose > * {
+  margin-bottom: v.$sp;
+  max-width: 700px;
+}
+
+.prose .screened-image-wrap {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: v.$title-font;
+  line-height: 1;
+}
+
+h1 {
+  font-size: 1.7em;
+}
+h2 {
+  font-size: 1.45em;
+  margin-top: v.$sp * 1.5;
+}
+h3 {
+  font-size: 1.2em;
+}
+
+/* footer */
+.footer .screened-image-wrap {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.copyright {
+  text-align: center;
+  font-family: v.$title-font;
+  margin-bottom: v.$sp * 1.5;
+}
+
+/* misc */
+
+.aboutbox {
+  outline: 1px solid v.$text-color;
+  padding: v.$sp;
+  margin-top: v.$sp * 2;
+  
+  > *:first-child {
+    margin-top: 0;
+  }
+  > *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+ul.articles-list ul {
+  margin-left: v.$sp;
+  list-style-type: "▻ ";
+}
+
+.screened-image-wrap {
+  position: relative;
+  background: white;
+  mix-blend-mode: multiply;
+
+  .screened-image {
+    width: 100%;
+  }
+}
+
+.color-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: v.$text-color;
+  mix-blend-mode: screen;
+}
+
+/* narrow window */
+
+@media only screen and (max-width: 616px){
+  body {
+    font-size: 18px;
+  }
+  .header {
+    padding-bottom: 0;
+  }
+  .container {
+    padding-left: v.$sp;
+  }
+  #page-left {
+    height: v.$sp;
+    right: 0;
+    width: 100vw;
+    position: absolute;
+  }
+  .site-title-area {
+    width: 100%;
+    text-align: left;
+    text-align: center;
+  }
+  .site-title {
+    width: 100%;
+    padding: 0;
+  }
+  .pre-site-title {
+    position: static;
+  }
+  .post-site-title {
+    font-size: 1.5em;
+    position: static;
+  }
+  .trail-path-1 {
+    right: 86%;
+    top: 6em;
+  }
+  .trail-path-2 {
+    left: 86%;
+  }
+}
