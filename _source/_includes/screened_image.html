@@ -1,4 +1,9 @@
+<figure>
 <div class="screened-image-wrap">
   <img class="screened-image" src="{{site.url}}{{site.baseurl}}/assets/img/{{include.filename}}.png" style="max-width: {{include.width | default: '200px'}};"/>
   <div class="color-screen"></div>
 </div>
+{%- if include.caption -%}
+<figcaption>{{ include.caption | smartify }}</figcaption>
+{%- endif -%}
+</figure>

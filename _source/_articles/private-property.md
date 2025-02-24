@@ -1,6 +1,8 @@
 ---
 title: Does OpenStreetMap include trails on private property?
-footer_image: fan-tree
+footer_image: horseshoe-camp
+footer_caption: '"Horseshoe Camp"'
+date: 2025-01-30
 ---
 Yes. OpenStreetMap relies on the concept of "ground truth." Features like trails are mapped as they exist on the ground, regardless of ownership.
 
@@ -12,7 +14,7 @@ Beyond denoting private trails, access tags can describe complex situations. For
 
 Access tags should be verifable, typically in the form of real-world signage or posted regulations.
 
-{% include screened_image.html filename="gate" width="350px;" %}
+{% include screened_image.html filename="gate" width="380px;" caption='"Country Gate"' %}
 
 ## How does private trail data get into OpenStreetMap?
 

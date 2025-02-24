@@ -1,7 +1,9 @@
 <div class="footer container">
   <div class="prose">
-    {%- assign footer_image_filename = page.footer_image | default: 'desert-sentinels' -%}
-    {%- include screened_image.html filename=footer_image_filename width="100%" -%}
+    {%- if page.footer_image -%}
+      {%- assign footer_image_filename = page.footer_image -%}
+      {%- include screened_image.html filename=footer_image_filename width="100%" caption=page.footer_caption -%}
+    {%- endif -%}
     <p class="copyright">
       <span><a href="{{site.url}}{{site.baseurl}}">The Digital Trails Handbook</a></span>
       <br/>
