@@ -1,7 +1,7 @@
 {% assign articles = site.articles | sort: "title" -%}
 <ul class="articles-list">
   {%- for article in articles -%}
-    <li><a href="{{article.url | absolute_url}}">{{article.title}}</a>
+    <li><a href="{{article.url | absolute_url}}"><b>{{article.title}}</b></a>
     {%- assign words = article.content | normalize_whitespace | split: ' ' -%}
     {%- if article.content contains "</h2>" -%}
       <ul>
