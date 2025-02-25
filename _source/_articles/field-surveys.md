@@ -3,8 +3,9 @@ title: How can I survey a trail?
 footer_image: surveyors-camp
 footer_caption: "\"Surveyor's Camp\""
 date: 2025-02-24
+updated: 2025-02-25
 ---
-Anyone can gather trail data, or "field survey." No fancy tools nor special skills required. You may even be surveying already while enjoying your usual outdoor activities.
+Anyone can gather trail data, or "field survey." No fancy tools nor special skills required. You may even be surveying trails without realizing it while enjoying outdoor activities.
 
 ## Why survey trails in the field?
 
@@ -12,24 +13,10 @@ Field surveys are invaluable to anyone creating digital trail data. A good field
 
 ## What is the end goal of field surveying?
 
-The goal of field surveys is to improve digital trail data. The most direct way to achieve this is by contributing your survey data to OpenStreetMap, since OSM powers most outdoor recreation apps. 
+The goal of field surveys is to improve digital trail data. The most direct way to achieve this is by contributing your survey data to OpenStreetMap, since OSM powers most outdoor recreation apps. OpenStreetMap is a free, global, collaborative database maintained by volunteers.
 
-## I take a lot of photos on the trail. Are these useful for mapping?
+{% include screened_image.html filename="gps-sat" width="700px" caption='"Global Positioning System Satellite"' %}
 
-Yes! Photos are the perfect way to capture information about a trail. A casual look back at your photo library might reveal the location of a viewpoint, the smoothness of a path, or the height of a bridge. By being intentional with your photos, you can survey a lot of trail data without too much effort.
-
-The most important thing to check is that your trail photos are geotagged with a location. Otherwise it can be very difficult to tell where a photo was taken. Most phones geotag photos automatically. Many digital cameras offer this functionality as well.
-
-{% include screened_image.html filename="havasupai-point-kiosk" width="400px" caption='"Trailside Shrine at Havasupai Point"' %}
-<!--
-## What sort of photos are helpful for mapping trails?
-
-It's helpful to take photos of any detail someone might want to add to the map.  trailheads, parking lots, picnic tables, benches, bathrooms, trash cans, and information boards.
-
-This includes the infrastucture like gates, trail markers, and intersections.
-
-Taking photos of any signage is particularly useful, as it often includes the name, operator, and allowed usage of a trail.
--->
 ## How can I survey the route of a trail with my phone?
 
 Several phone apps allow you to capture the route of your hike, bike ride, etc. These captures are commonly known as "GPS traces," and they can indicate trail geometry.
