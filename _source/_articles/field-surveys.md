@@ -15,7 +15,7 @@ Field surveys are invaluable to anyone creating digital trail data. A good field
 
 The goal of field surveys is to improve digital trail data. The most direct way to achieve this is by contributing your survey data to OpenStreetMap, since OSM powers most outdoor recreation apps. OpenStreetMap is a free, global, collaborative database maintained by volunteers.
 
-{% include screened_image.html filename="gps-sat" width="700px" caption='"Global Positioning System Satellite"' %}
+{% include screened_image.html filename="gps-sat" width="480px" caption='"Global Positioning System Satellite"' %}
 
 ## How can I survey the route of a trail with my phone?
 
