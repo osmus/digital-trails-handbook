@@ -1,6 +1,6 @@
 # *The Digital Trails Handbook*
 
-Hi there, you've found the home of *The Digital Trails Handbook*.
+Hi there, you've found the home of *[The Digital Trails Handbook](https://digitaltrails.us)*.
 
 As part of our [Trails Stewardship Initiative](https://openstreetmap.us/trails), OpenStreetMap US is working to compile a comprehensive guide to the world of digital trail data.
 
