@@ -1,5 +1,5 @@
-url: "https://osmus.github.io"
-baseurl: "/digital-trails-handbook"
+url: "https://digitaltrails.us"
+baseurl: ""
 liquid:
   error_mode: warn
   strict_variables: false
