@@ -30,4 +30,4 @@ OSM-based maps typically mark private trails as no-access, or hide them entirely
 
 ## What if OpenStreetMap says I can use a trail but a sign says I can't?
 
-Obey posted signage. OpenStreetMap data may be incomplete or outdated, and is no excuse to trespass. The individiual trail user is responsibile for complying with property law.
+Obey posted signage. OpenStreetMap data may be incomplete or outdated, and is no excuse to trespass. The individual trail user is responsible for complying with property law.
