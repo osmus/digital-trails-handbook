@@ -3,6 +3,7 @@ title: I take a lot of photos on the trail. Are these useful for mapping?
 footer_image: landscape-painting
 footer_caption: "\"Studying In Colour From Nature\""
 date: 2025-02-25
+updated: 2025-03-19
 ---
 Yes! Photos are the perfect way to capture information about a trail. A casual look back at your photo library might reveal the location of a viewpoint, the smoothness of a path, or the height of a bridge. By being intentional with your photos, you can survey a lot of trail data without too much effort.
 
@@ -14,7 +15,7 @@ Most phones geotag photos automatically using a GPS receiver, even when your pho
 
 ## What if my camera can't geotag photos?
 
-Various apps let you add locations to photos you've already taken. You can take notes about where you're taking a photo in the field, and then update the metadata later.
+Various apps let you add locations to photos you've already taken. When you're snapping a photo in the field, record the location by noting nearby landmarks or saving coordinates from a standalone GPS unit. Then update the metadata when you're back at your computer.
 
 ## What sort of trail features should I take photos of?
 
